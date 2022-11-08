@@ -8,7 +8,7 @@ const fetchMemes = async () => {
 }
 
 const Memes = () => {
-    const { data, status, refetch } = useQuery('memes', fetchMemes, {enabled: false});
+    const { data, status, refetch } = useQuery('memes', fetchMemes, {enabled: true});
     console.log(data);
 
     const handleClick = () => {
