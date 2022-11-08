@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery } from 'react-query';
-import { ImageList, ImageListItem, ImageListItemBar } from '@mui/material'
+import { ImageList, ImageListItem, ImageListItemBar } from '@mui/material';
 
 const fetchMemes = async () => {
     const response = await fetch('https://api.imgflip.com/get_memes');

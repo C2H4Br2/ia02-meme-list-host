@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { QueryClient, QueryClientProvider } from 'react-query'
-import { Grid } from '@mui/material'
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { Grid } from '@mui/material';
 import ReactDOM from 'react-dom/client';
 import Memes from './components/Memes';
-import './index.css'
+import './index.css';
 
 const queryClient = new QueryClient();
 
